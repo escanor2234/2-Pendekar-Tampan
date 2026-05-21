@@ -1,0 +1,65 @@
+services:
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions", "--bootstrap-server", "kafka:9092"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  producer:
+    image: python:3.11-slim
+    container_name: producer
+    depends_on:
+      kafka:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["sh", "-c", "pip install -r requirements.txt -q && python producer.py"]
+    environment:
+      KAFKA_SERVERS: kafka:9092
+      OTX_API_KEY: "${OTX_API_KEY}"
+
+  spark:
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
+    container_name: spark
+    depends_on:
+      kafka:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    working_dir: /app
+    user: root
+    environment:
+      KAFKA_SERVERS: kafka:9092
+    command:
+      - bash
+      - -c
+      - >-
+        /opt/spark/bin/spark-submit
+        --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.0
+        --conf spark.jars.ivy=/tmp/ivy2
+        stream.py
