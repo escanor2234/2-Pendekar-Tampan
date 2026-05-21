@@ -1,0 +1,36 @@
+pulse_id,name,timestamp,author,tags,tlp,adversary,targeted_countries,malware_families,attack_ids,indicator_count,ipv4_count,ipv6_count,domain_count,hostname_count,url_count,md5_count,sha256_count,email_count,cve_count,tag_count,references_count,has_adversary,country_count,attack_label
+6a0d278a6320921cb57f8b69,Popular Go Decimal Library Targeted by Long-Running Typosquat with DNS Backdoor,2026-05-21T00:33:17.577000,AlienVault,,white,,,,,6,0,0,0,1,0,1,2,0,0,0,0,0,0,0
+6a0ce3b0ad791179648c47b0,Latest PyPi Compromise,2026-05-21T00:26:24.796000,AlienVault,,white,TeamPCP,,,,9,1,0,0,2,2,0,4,0,0,0,0,1,0,0
+6a0ce3af84b924ad15e27920,Inside Banana RAT: From Build Server to Banking Fraud,2026-05-21T00:30:44.319000,AlienVault,,white,SHADOW-WATER-063,,,,11,1,0,2,1,3,0,4,0,0,0,0,1,0,0
+6a0ca36a3571d3fbd4cd92bc,9 Year-Old PHP Vulnerability Keeps Swinging As One of the Most Targeted Vulnerabilities,2026-05-21T00:19:43.890000,AlienVault,,white,,,,,9,5,0,0,0,0,0,0,0,4,0,0,0,0,0
+6a0ca3690196d40952527b96,Exposing Fox Tempest: A malware-signing service operation,2026-05-21T00:24:05.220000,AlienVault,,white,Fox Tempest,,,,6,0,0,1,0,0,0,3,0,0,0,0,1,0,0
+6a0c1b289f4fe8b7bdf00a84,Active Supply Chain Attack Compromises Packages on npm,2026-05-19T17:46:10.861000,AlienVault,,white,,,,,3,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+6a0b921d3574a6ef2eca8d47,Copycat hits another npm package,2026-05-19T17:39:11.086000,AlienVault,,white,,,,,3,1,0,0,2,0,0,0,0,0,0,0,0,0,0
+6a0b6c5acfd23c54ac29ea40,Spring harvest - Leek Likho group's campaign to hunt for documents,2026-05-18T19:45:29.676000,AlienVault,,white,,,,,120,0,0,0,0,0,56,32,0,0,0,0,0,0,0
+6a0b6898afd39bdd2dd6f142,Chinese APT Campaign Targets Entities with Updated FDMTP Backdoor,2026-05-18T19:29:26.882000,AlienVault,,white,Twill Typhoon,,,,12,0,0,0,1,0,8,2,0,0,0,0,1,0,0
+6a0b6747345498a268db0263,Cato CTRL Threat Research: Suspected China-Linked Threat Actor Targets Global Manufacturer with Undocumented TencShell Malware,2026-05-18T19:23:51.242000,AlienVault,,white,,,,,73,1,0,0,1,0,10,51,0,0,0,0,0,0,0
+6a0b62751c0e2c5b056102a8,"Vidar v1.5 in Go: same family, new language, heavy sandbox checks",2026-05-18T19:03:51.808000,AlienVault,,white,,,,,7,0,0,0,0,3,2,1,0,0,0,0,0,0,0
+6a0b5e378b3635e94b3b7656,FlowerStorm unleashes the KrakVM: PhaaS operators turn to VM-based obfuscation,2026-05-18T18:45:09.920000,AlienVault,,white,,,,,87,0,0,34,52,0,1,0,0,0,0,0,0,0,0
+6a0b51f39a34872f37d37c9f,"macOS Stealer Spoofs Apple, Google, and Microsoft in a Single Attack Chain",2026-05-18T18:09:09.669000,AlienVault,,white,,,,,9,0,0,3,0,5,1,0,0,0,0,0,0,0,0
+6a073a73501adf1f890b1a5e,Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files,2026-05-15T18:47:52.709000,AlienVault,,white,,,,,12,1,0,0,0,0,0,11,0,0,0,0,0,0,0
+6a062c383bdae760fc221b6f,Kazuar: Anatomy of a nation-state botnet,2026-05-15T18:46:45.298000,AlienVault,,white,Turla,,,,9,0,0,0,0,0,3,4,0,0,0,0,1,0,0
+6a062c38dfdb5434bb2f0876,Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities,2026-05-15T18:44:33.177000,AlienVault,,white,UAT-8616,,,,40,10,0,0,2,2,4,12,0,7,0,0,1,0,0
+6a0f2710f906b2452e3b84d4,Mini Shai-Hulud Hits TanStack npm Packages,2026-05-21T16:01:41.793000,AlienVault,,white,TeamPCP,,,,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+6a0d9718bf383fbc0b89ec6c,Infostealer Campaign Using Trading App as Lure,2026-05-21T16:03:54.138000,AlienVault,,white,Kimsuky,,,,17,0,0,11,0,0,1,4,0,0,0,0,1,0,0
+6a0d96aadcfeadab9eea10d0,APT Targets Azerbaijani Oil and Gas Industry,2026-05-21T16:01:35.468000,AlienVault,,white,GhostEmperor,,,,11,0,0,1,0,2,3,0,0,5,0,0,1,0,0
+6a0d278a6320921cb57f8b69,Popular Go Decimal Library Targeted by Long-Running Typosquat with DNS Backdoor,2026-05-21T00:33:17.577000,AlienVault,,white,,,,,6,0,0,0,1,0,1,2,0,0,0,0,0,0,0
+6a0ce3b0ad791179648c47b0,Latest PyPi Compromise,2026-05-21T00:26:24.796000,AlienVault,,white,TeamPCP,,,,9,1,0,0,2,2,0,4,0,0,0,0,1,0,0
+6a0ce3af84b924ad15e27920,Inside Banana RAT: From Build Server to Banking Fraud,2026-05-21T00:30:44.319000,AlienVault,,white,SHADOW-WATER-063,,,,11,1,0,2,1,3,0,4,0,0,0,0,1,0,0
+6a0ca36a3571d3fbd4cd92bc,9 Year-Old PHP Vulnerability Keeps Swinging As One of the Most Targeted Vulnerabilities,2026-05-21T00:19:43.890000,AlienVault,,white,,,,,9,5,0,0,0,0,0,0,0,4,0,0,0,0,0
+6a0ca3690196d40952527b96,Exposing Fox Tempest: A malware-signing service operation,2026-05-21T00:24:05.220000,AlienVault,,white,Fox Tempest,,,,6,0,0,1,0,0,0,3,0,0,0,0,1,0,0
+6a0c1b289f4fe8b7bdf00a84,Active Supply Chain Attack Compromises Packages on npm,2026-05-19T17:46:10.861000,AlienVault,,white,,,,,3,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+6a0b921d3574a6ef2eca8d47,Copycat hits another npm package,2026-05-19T17:39:11.086000,AlienVault,,white,,,,,3,1,0,0,2,0,0,0,0,0,0,0,0,0,0
+6a0b6c5acfd23c54ac29ea40,Spring harvest - Leek Likho group's campaign to hunt for documents,2026-05-18T19:45:29.676000,AlienVault,,white,,,,,120,0,0,0,0,0,56,32,0,0,0,0,0,0,0
+6a0b6898afd39bdd2dd6f142,Chinese APT Campaign Targets Entities with Updated FDMTP Backdoor,2026-05-18T19:29:26.882000,AlienVault,,white,Twill Typhoon,,,,12,0,0,0,1,0,8,2,0,0,0,0,1,0,0
+6a0b6747345498a268db0263,Cato CTRL Threat Research: Suspected China-Linked Threat Actor Targets Global Manufacturer with Undocumented TencShell Malware,2026-05-18T19:23:51.242000,AlienVault,,white,,,,,73,1,0,0,1,0,10,51,0,0,0,0,0,0,0
+6a0b62751c0e2c5b056102a8,"Vidar v1.5 in Go: same family, new language, heavy sandbox checks",2026-05-18T19:03:51.808000,AlienVault,,white,,,,,7,0,0,0,0,3,2,1,0,0,0,0,0,0,0
+6a0b5e378b3635e94b3b7656,FlowerStorm unleashes the KrakVM: PhaaS operators turn to VM-based obfuscation,2026-05-18T18:45:09.920000,AlienVault,,white,,,,,87,0,0,34,52,0,1,0,0,0,0,0,0,0,0
+6a0b51f39a34872f37d37c9f,"macOS Stealer Spoofs Apple, Google, and Microsoft in a Single Attack Chain",2026-05-18T18:09:09.669000,AlienVault,,white,,,,,9,0,0,3,0,5,1,0,0,0,0,0,0,0,0
+6a073a73501adf1f890b1a5e,Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files,2026-05-15T18:47:52.709000,AlienVault,,white,,,,,12,1,0,0,0,0,0,11,0,0,0,0,0,0,0
+6a062c383bdae760fc221b6f,Kazuar: Anatomy of a nation-state botnet,2026-05-15T18:46:45.298000,AlienVault,,white,Turla,,,,9,0,0,0,0,0,3,4,0,0,0,0,1,0,0
+6a062c38dfdb5434bb2f0876,Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities,2026-05-15T18:44:33.177000,AlienVault,,white,UAT-8616,,,,40,10,0,0,2,2,4,12,0,7,0,0,1,0,0
